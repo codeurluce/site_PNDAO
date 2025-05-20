@@ -148,4 +148,5 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-white-500',
         seasonName: 'Dimanche de la Transfiguration'
     },
+    
 };
