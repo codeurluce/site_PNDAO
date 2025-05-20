@@ -1,3 +1,9 @@
+// Ce composant affiche un indicateur visuel de la saison liturgique actuelle avec un bouton 
+// pour ouvrir un panneau permettant à l'utilisateur de sélectionner manuellement une autre 
+// saison liturgique. Il utilise un contexte LiturgicalContext pour récupérer les informations 
+// liées à la saison, le thème (couleurs), et un mode manuel/automatique.
+// -----------------------------------------------------------------------------------------
+
 import { useState } from 'react';
 import { useLiturgical } from '../../contexts/LiturgicalContext';
 import { Settings, X } from 'lucide-react';
