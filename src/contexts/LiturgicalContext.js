@@ -79,11 +79,10 @@ export function LiturgicalProvider({ children }) {
 export function useLiturgical() {
   const context = useContext(LiturgicalContext);
   if (context === undefined) {
-    throw new Error('useLiturgical must be used within a LiturgicalProvider');
+    throw new Error('useLiturgical doit être utilisé dans un LiturgicalProvider');
   }
   return context;
 }
-
 
 // Ce context gère la saison liturgique affichée dans l’app (via currentSeason).
 // Par défaut, il calcule la saison automatiquement selon la date grâce à getCurrentLiturgicalSeason().
