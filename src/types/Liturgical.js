@@ -68,7 +68,7 @@ export const liturgicalThemes = {
         seasonName: 'Dimanche de la Joie (Carême)'
     },
     palms: {
-        name: 'Dimanche des Rameaux',
+        name: 'Rameaux',
         color: 'liturgical-red',
         textColor: 'text-liturgical-red-800',
         bgColor: 'bg-liturgical-red-500',
@@ -126,40 +126,40 @@ export const liturgicalThemes = {
         seasonName: 'Toussaint'
     },
     // Ascension
-    ascension: {
-        name: 'Ascension',
-        color: 'liturgical-white',
-        textColor: 'text-liturgical-white-800',
-        bgColor: 'bg-liturgical-white-500',
-        accentColor: 'border-liturgical-white-500',
-        seasonName: 'Ascension'
-    },
+    // ascension: {
+    //     name: 'Ascension',
+    //     color: 'liturgical-white',
+    //     textColor: 'text-liturgical-white-800',
+    //     bgColor: 'bg-liturgical-white-500',
+    //     accentColor: 'border-liturgical-white-500',
+    //     seasonName: 'Ascension'
+    // },
     // Trinité
-    trinity: {
-        name: 'Trinité',
-        color: 'liturgical-white',
-        textColor: 'text-liturgical-white-800',
-        bgColor: 'bg-liturgical-white-500',
-        accentColor: 'border-liturgical-white-500',
-        seasonName: 'Trinité'
-    },
+    // trinity: {
+    //     name: 'Trinité',
+    //     color: 'liturgical-white',
+    //     textColor: 'text-liturgical-white-800',
+    //     bgColor: 'bg-liturgical-white-500',
+    //     accentColor: 'border-liturgical-white-500',
+    //     seasonName: 'Trinité'
+    // },
     // Fête du Saint Sacrement
-    holyEucharist: {
-        name: 'Fête du Saint Sacrement',
-        color: 'liturgical-white',
-        textColor: 'text-liturgical-white-800',
-        bgColor: 'bg-liturgical-white-500',
-        accentColor: 'border-liturgical-white-500',
-        seasonName: 'Fête du Saint Sacrement'
-    },
+    // holyEucharist: {
+    //     name: 'Fête du Saint Sacrement',
+    //     color: 'liturgical-white',
+    //     textColor: 'text-liturgical-white-800',
+    //     bgColor: 'bg-liturgical-white-500',
+    //     accentColor: 'border-liturgical-white-500',
+    //     seasonName: 'Fête du Saint Sacrement'
+    // },
     // dimanche de la  transfiguration
-    transfiguration: {
-        name: 'Dimanche de la Transfiguration',
-        color: 'liturgical-white',
-        textColor: 'text-liturgical-white-800',
-        bgColor: 'bg-liturgical-white-500',
-        accentColor: 'border-liturgical-white-500',
-        seasonName: 'Dimanche de la Transfiguration'
-    },
+    // transfiguration: {
+    //     name: 'Dimanche de la Transfiguration',
+    //     color: 'liturgical-white',
+    //     textColor: 'text-liturgical-white-800',
+    //     bgColor: 'bg-liturgical-white-500',
+    //     accentColor: 'border-liturgical-white-500',
+    //     seasonName: 'Dimanche de la Transfiguration'
+    // },
 
 };
