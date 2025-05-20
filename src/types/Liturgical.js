@@ -95,7 +95,7 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-blue-500',
         seasonName: 'Fête Mariale'
     },
-    sundayJoy: {
+    joySunday: {
         name: 'Dimanche de la Joie',
         color: 'liturgical-rose',
         textColor: 'text-liturgical-rose-800',
@@ -148,5 +148,5 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-white-500',
         seasonName: 'Dimanche de la Transfiguration'
     },
-    
+
 };
