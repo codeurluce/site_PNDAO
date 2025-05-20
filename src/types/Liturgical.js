@@ -116,14 +116,6 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-blue-500',
         seasonName: 'Fête Mariale'
     },
-    joySunday: {
-        name: 'Dimanche de la Joie',
-        color: 'liturgical-rose',
-        textColor: 'text-liturgical-rose-800',
-        bgColor: 'bg-liturgical-rose-500',
-        accentColor: 'border-liturgical-rose-500',
-        seasonName: 'Dimanche de la Joie'
-    },
     // TOUSSAINT
     allSaints: {
         name: 'Toussaint',
