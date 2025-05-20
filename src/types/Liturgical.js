@@ -1,7 +1,7 @@
 // Un objet JavaScript qui associe à chaque saison liturgique 
 // (temps ordinaire, avent, carême, noël, etc.) un ensemble de propriétés de thème.
 
-const liturgicalThemes = {
+export const liturgicalThemes = {
 
     ordinary: {
         name: 'Ordinaire',

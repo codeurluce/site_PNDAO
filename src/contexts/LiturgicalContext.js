@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import { liturgicalThemes } from '../types/liturgical'; // Couleurs et noms des saisons
 import { getCurrentLiturgicalSeason } from '../utils/liturgicalCalendar'; // Fonction qui calcule la saison actuelle
-
+import React from 'react';
 // Création du contexte sans valeur par défaut (undefined)
 const LiturgicalContext = createContext(undefined);
 

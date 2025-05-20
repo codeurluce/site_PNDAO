@@ -4,11 +4,12 @@
 // liées à la saison, le thème (couleurs), et un mode manuel/automatique.
 // -----------------------------------------------------------------------------------------
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import { Settings, X } from 'lucide-react'; // Icônes engrenage et croix
 import classNames from 'classnames'; // Pour gérer dynamiquement les classes CSS
 import { useLiturgical } from '../../contexts/LiturgicalContext';
-import { liturgicalThemes } from '../../types/Liturgical';
+import { liturgicalThemes } from '../../types/liturgical';
 import { is } from 'date-fns/locale';
 
 
