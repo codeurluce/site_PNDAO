@@ -3,7 +3,7 @@
 
 const liturgicalThemes = {
 
-    ordinary: {
+    ordinary: { 
         name: 'Temps Ordinaire',
         color: 'liturgical-green',
         textColor: 'text-liturgical-green-800',
@@ -27,6 +27,14 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-violet-500',
         seasonName: "Temps de l'Avent"
     },
+    joySundayAdvent: {
+        name: 'Dimanche de Gaudete',
+        color: 'liturgical-rose',
+        textColor: 'text-liturgical-rose-800',
+        bgColor: 'bg-liturgical-rose-500',
+        accentColor: 'border-liturgical-rose-500',
+        seasonName: 'Dimanche de la Joie (Avent)'
+    },
     christmas: {
         name: 'Noël',
         color: 'liturgical-white',
@@ -35,9 +43,14 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-white-500',
         seasonName: 'Temps de Noël'
     },
-
-    
-
+    ashWednesday: {
+        name: 'Mercredi des Cendres',
+        color: 'liturgical-black',
+        textColor: 'text-liturgical-black-800',
+        bgColor: 'bg-liturgical-black-500',
+        accentColor: 'border-liturgical-black-500',
+        seasonName: 'Début du Carême'
+    },
     lent: {
         name: 'Carême',
         color: 'liturgical-violet',
@@ -46,6 +59,24 @@ const liturgicalThemes = {
         accentColor: 'border-liturgical-violet-500',
         seasonName: 'Temps de Carême'
     },
+    joySundayLent: {
+        name: 'Dimanche de Laetare',
+        color: 'liturgical-rose',
+        textColor: 'text-liturgical-rose-800',
+        bgColor: 'bg-liturgical-rose-500',
+        accentColor: 'border-liturgical-rose-500',
+        seasonName: 'Dimanche de la Joie (Carême)'
+    },
+
+
+
+
+
+
+
+
+
+
     palms: {
         name: 'Dimanche des Rameaux',
         color: 'liturgical-red',

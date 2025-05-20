@@ -12,7 +12,7 @@ export function getCurrentLiturgicalSeason(date = new Date()) {
 
   // Carême : du mercredi des Cendres à la veille de Pâques (samedi de Pâques)
   const ashWednesday = subDays(easterDate, 46);
-  const joySunday = subDays(easterDate, 21); // 4em dimanche de Carême (Laetare)
+  const laetareSunday = subDays(easterDate, 21); // 4em dimanche de Carême (Laetare)
   const palmSunday = subDays(easterDate, 7);
   const holyThursday = subDays(easterDate, 3);
   const goodFriday = subDays(easterDate, 2);
@@ -26,6 +26,8 @@ export function getCurrentLiturgicalSeason(date = new Date()) {
   const christmasDate = new Date(year, 11, 25);
   const adventStart = getAdventStart(christmasDate);
   const christmasEve = new Date(year, 11, 24);
+  const gaudeteSunday = subDays(christmasDate, 14); // 3e dimanche de l’Avent (Gaudete)
+
 
   // Noël : du 25 décembre au 6 janvier
   const christmasDay = new Date(year, 11, 25);
@@ -45,7 +47,11 @@ export function getCurrentLiturgicalSeason(date = new Date()) {
   if (isSameDay(today, goodFriday)) return 'goodFriday';
   if (isSameDay(today, easterDate)) return 'easter';
   if (isSameDay(today, pentecostSunday)) return 'pentecost';
-  if (isSameDay(today, pentecostMonday)) return 'pentecostMonday';
+  if (isSameDay(today, pentecostMonday)) return 'pentecost';
+  if (isSameDay(today, ashWednesday)) return 'lent';
+  if (isSameDay(today, laetareSunday)) return 'joySunday';
+  if (isSameDay(today, gaudeteSunday)) return 'joySunday';
+
   if (marianFeasts.some(d => isSameDay(today, d))) return 'marian';
 
   // --- PÉRIODES LITURGIQUES ---
