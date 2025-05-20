@@ -48,9 +48,9 @@ export function getCurrentLiturgicalSeason(date = new Date()) {
   if (isSameDay(today, easterDate)) return 'easter';
   if (isSameDay(today, pentecostSunday)) return 'pentecost';
   if (isSameDay(today, pentecostMonday)) return 'pentecost';
-  if (isSameDay(today, ashWednesday)) return 'lent';
-  if (isSameDay(today, laetareSunday)) return 'joySunday';
-  if (isSameDay(today, gaudeteSunday)) return 'joySunday';
+  if (isSameDay(today, ashWednesday)) return 'ashWednesday';
+  if (isSameDay(today, laetareSunday)) return 'joySundayLent';
+  if (isSameDay(today, gaudeteSunday)) return 'joySundayAdvent';
 
   if (marianFeasts.some(d => isSameDay(today, d))) return 'marian';
 
@@ -64,7 +64,7 @@ export function getCurrentLiturgicalSeason(date = new Date()) {
     return 'christmas';
   }
 
-  if (isWithinInterval(today, { start: ashWednesday, end: subDays(easterDate, 1) })) {
+  if (isWithinInterval(today, { start: addDays(ashWednesday, 1), end: subDays(easterDate, 1) })) {
     return 'lent';
   }
 
