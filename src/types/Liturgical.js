@@ -9,6 +9,8 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-green-800',
         bgColor: 'bg-liturgical-green-500',
         accentColor: 'border-liturgical-green-500',
+        ringColor: 'focus:ring-liturgical-green-500',
+
         seasonName: 'Temps Ordinaire'
     },
     christKing: {
@@ -17,6 +19,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-white-800',
         bgColor: 'bg-liturgical-white-500',
         accentColor: 'border-liturgical-white-500',
+        ringColor: 'focus:ring-liturgical-white-500',
         seasonName: 'Christ Roi'
     },
     advent: {
@@ -25,6 +28,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-violet-800',
         bgColor: 'bg-liturgical-violet-500',
         accentColor: 'border-liturgical-violet-500',
+        ringColor: 'focus:ring-liturgical-violet-500',
         seasonName: "Temps de l'Avent"
     },
     joySundayAdvent: {
@@ -33,6 +37,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-rose-800',
         bgColor: 'bg-liturgical-rose-500',
         accentColor: 'border-liturgical-rose-500',
+        ringColor: 'focus:ring-liturgical-rose-500',
         seasonName: 'Dimanche de la Joie (Avent)'
     },
     christmas: {
@@ -41,6 +46,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-white-800',
         bgColor: 'bg-liturgical-white-500',
         accentColor: 'border-liturgical-white-500',
+        ringColor: 'focus:ring-liturgical-white-500',
         seasonName: 'Temps de Noël'
     },
     ashWednesday: {
@@ -49,6 +55,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-violet-800',
         bgColor: 'bg-liturgical-violet-500',
         accentColor: 'border-liturgical-violet-500',
+        ringColor: 'focus:ring-liturgical-violet-500',
         seasonName: 'Mercredi des Cendres'
     },
     lent: {
@@ -57,6 +64,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-violet-800',
         bgColor: 'bg-liturgical-violet-500',
         accentColor: 'border-liturgical-violet-500',
+        ringColor: 'focus:ring-liturgical-violet-500',
         seasonName: 'Temps de Carême'
     },
     joySundayLent: {
@@ -65,6 +73,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-rose-800',
         bgColor: 'bg-liturgical-rose-500',
         accentColor: 'border-liturgical-rose-500',
+        ringColor: 'focus:ring-liturgical-rose-500',
         seasonName: 'Dimanche de la Joie (Carême)'
     },
     palms: {
@@ -73,6 +82,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-red-800',
         bgColor: 'bg-liturgical-red-500',
         accentColor: 'border-liturgical-red-500',
+        ringColor: 'focus:ring-liturgical-red-500',
         seasonName: 'Dimanche des Rameaux'
     },
     holyThursday: {
@@ -81,6 +91,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-white-800',
         bgColor: 'bg-liturgical-white-500',
         accentColor: 'border-liturgical-white-500',
+        ringColor: 'focus:ring-liturgical-white-500',
         seasonName: 'Jeudi Saint'
     },
     goodFriday: {
@@ -89,6 +100,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-red-800',
         bgColor: 'bg-liturgical-red-500',
         accentColor: 'border-liturgical-red-500',
+        ringColor: 'focus:ring-liturgical-red-500',
         seasonName: 'Vendredi Saint'
     },
     easter: {
@@ -97,6 +109,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-white-800',
         bgColor: 'bg-liturgical-white-500',
         accentColor: 'border-liturgical-white-500',
+        ringColor: 'focus:ring-liturgical-white-500',
         seasonName: 'Temps Pâscal'
     },
     pentecost: {
@@ -105,6 +118,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-red-800',
         bgColor: 'bg-liturgical-red-500',
         accentColor: 'border-liturgical-red-500',
+        ringColor: 'focus:ring-liturgical-red-500',
         seasonName: 'Pentecôte'
     },
 
@@ -114,6 +128,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-blue-800',
         bgColor: 'bg-liturgical-blue-500',
         accentColor: 'border-liturgical-blue-500',
+        ringColor: 'focus:ring-liturgical-blue-500',
         seasonName: 'Fête Mariale'
     },
     // TOUSSAINT
@@ -123,6 +138,7 @@ export const liturgicalThemes = {
         textColor: 'text-liturgical-white-800',
         bgColor: 'bg-liturgical-white-500',
         accentColor: 'border-liturgical-white-500',
+        ringColor: 'focus:ring-liturgical-white-500',
         seasonName: 'Toussaint'
     },
     // Ascension
@@ -132,6 +148,7 @@ export const liturgicalThemes = {
     //     textColor: 'text-liturgical-white-800',
     //     bgColor: 'bg-liturgical-white-500',
     //     accentColor: 'border-liturgical-white-500',
+    //     ringColor: 'focus:ring-liturgical-white-500',
     //     seasonName: 'Ascension'
     // },
     // Trinité
@@ -141,6 +158,7 @@ export const liturgicalThemes = {
     //     textColor: 'text-liturgical-white-800',
     //     bgColor: 'bg-liturgical-white-500',
     //     accentColor: 'border-liturgical-white-500',
+    //     ringColor: 'focus:ring-liturgical-white-500',
     //     seasonName: 'Trinité'
     // },
     // Fête du Saint Sacrement
@@ -150,6 +168,7 @@ export const liturgicalThemes = {
     //     textColor: 'text-liturgical-white-800',
     //     bgColor: 'bg-liturgical-white-500',
     //     accentColor: 'border-liturgical-white-500',
+    //     ringColor: 'focus:ring-liturgical-white-500',
     //     seasonName: 'Fête du Saint Sacrement'
     // },
     // dimanche de la  transfiguration
@@ -159,6 +178,7 @@ export const liturgicalThemes = {
     //     textColor: 'text-liturgical-white-800',
     //     bgColor: 'bg-liturgical-white-500',
     //     accentColor: 'border-liturgical-white-500',
+    //     ringColor: 'focus:ring-liturgical-white-500',
     //     seasonName: 'Dimanche de la Transfiguration'
     // },
 
