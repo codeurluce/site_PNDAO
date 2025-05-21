@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Inter', 'sans-serif'],
+        'playfair': ['"Playfair Display"', 'serif'],
+      },
       colors: {
         liturgical: {
           green: {
@@ -84,10 +88,6 @@ export default {
             900: '#0D1425',
           }
         }
-      },
-      fontFamily: {
-        sans: ['Inter var', 'sans-serif'],
-        serif: ['Lora', 'serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

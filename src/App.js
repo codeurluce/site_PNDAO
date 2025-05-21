@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LiturgicalProvider } from './contexts/LiturgicalContext';
-import { Navbar } from './components/layout/Navbar';
+import  Navbar  from './components/layout/Navbar.jsx'
 // import { Footer } from './components/layout/Footer';
 import { SeasonIndicator } from './components/layout/SeasonIndicators';
 // import { HomePage } from './pages/HomePage';
